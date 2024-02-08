@@ -13,10 +13,9 @@ This project comprises a webpage designed to facilitate user interaction. The ho
 
 
 <h2>How to download in your local environment</h2>
-<li>git clone https://github.com/prajwal208/Mern-Weather.git</li>
+<li>git clone https://github.com/prajwal208/Ecommerce-assignment.git</li>
 <li>npm install</li>
-<li>include the .env file which includes API_KEY of AlphaVantage</li>
 <li>npm start</li>
 
 <h2>Project Link 👇</h2>
-https://stock-watchlists.netlify.app/
+https://ecommerce-assignment208.netlify.app/
