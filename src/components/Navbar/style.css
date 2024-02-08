@@ -1,0 +1,68 @@
+.nav_wrap{
+    width: 300px;
+    height: auto;
+    background-color: #0058C9;
+    position: absolute;
+    z-index: 999;
+    margin-left: 100px;
+    padding: 0 0 30px 0;
+}
+
+.user_section{
+    background-color: #003B87;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.user_edit img{
+    width: 50px;
+    height: 50px;
+}
+
+.user_info li{
+    list-style: none;
+    color: #fff;    
+}
+
+.user_info{
+    display: flex;
+    gap: 15px;
+}
+
+.user_icon img{
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    padding: 0;
+    margin-top: 50px;
+}
+
+.nav_bar_list li{
+    list-style: none;
+    background-color: #003B87;
+    color: white;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.logout_btn button{
+    width: 280px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 170px;
+    border-radius: 10px;
+}

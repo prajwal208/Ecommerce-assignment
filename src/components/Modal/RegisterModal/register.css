@@ -1,0 +1,83 @@
+.register_modal .ant-modal .ant-modal-content {
+    height: 550px ;
+    width: 400px ;
+    margin-left: 50px;
+}
+
+.ant-modal .ant-modal-footer {
+    display: none;
+}
+
+.ant-modal .ant-modal-close {
+    display: none;
+}
+
+.registration_Wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registration_Wrap h1{
+    text-align: center;
+    color: #0058C9;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.registration_Wrap input{
+    width: 300px;
+    padding: 10px;
+    border: 3px solid #0058C9;
+    color: #0058C9;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+::placeholder{
+    color: #0058C9;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.terms span{
+    color: #0058C9;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.register_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register_btn button{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0058C9;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .ant-modal .ant-modal-content {
+        height: 500px;
+        width: 350px;
+        margin-left: 0;
+    }
+}
